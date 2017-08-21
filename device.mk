@@ -106,6 +106,9 @@ PRODUCT_PACKAGES += \
     libshim_ims-camera \
     libmm-qcamera \
     sensors.hal.tof \
+    libmmcamera_interface \
+    libmmjpeg_interface \
+    libqomx_core \
     SnapdragonCamera
 
 PRODUCT_COPY_FILES += \
