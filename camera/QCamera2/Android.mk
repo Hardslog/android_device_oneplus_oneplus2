@@ -56,7 +56,7 @@ LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/../mm-image-codec/qexif \
         $(LOCAL_PATH)/../mm-image-codec/qomx_core \
         $(LOCAL_PATH)/util \
-        hardware/qcom/media-caf/msm8994/libstagefrighthw \
+        hardware/qcom/media-caf-msm8992/libstagefrighthw \
         device/qcom/common/power
 
 #HAL 1.0 Include paths
@@ -69,9 +69,9 @@ LOCAL_ADDITIONAL_DEPENDENCIES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr
 
 #LOCAL_STATIC_LIBRARIES := libqcamera2_util
 LOCAL_C_INCLUDES += \
-        hardware/qcom/display/msm8994/libgralloc
+        hardware/qcom/display-caf-msm8992/libgralloc
 LOCAL_C_INCLUDES += \
-        hardware/qcom/display/msm8994/libqdutils
+        hardware/qcom/display-caf-msm8992/libqdutils
 
 LOCAL_SHARED_LIBRARIES := libcamera_client liblog libhardware libutils libcutils libdl
 LOCAL_SHARED_LIBRARIES += libmmcamera_interface libmmjpeg_interface libui libcamera_metadata

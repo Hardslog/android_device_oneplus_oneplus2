@@ -104,7 +104,6 @@ PRODUCT_PACKAGES += \
     mm-qcamera-app \
     libshim_camera \
     libshim_ims-camera \
-    libmm-qcamera \
     sensors.hal.tof \
     libmmcamera_interface \
     libmmjpeg_interface \
